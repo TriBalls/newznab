@@ -1,7 +1,11 @@
 #!/bin/sh
-# call this script from within screen to get binaries, processes releases and
-# every half day get tv/theatre info and optimise the database
-
+############################################
+# Script based on newznab_screen.sh
+# Updated by _R0N_
+# Version 20130113-0843
+# This script is part of a package scripts
+# created for Centos to run as a service
+############################################
 set -e
 
 export NEWZNAB_PATH="/opt/newznab/misc/update_scripts"
