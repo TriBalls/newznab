@@ -9,9 +9,9 @@
 set -e
 
 export NEWZNAB_PATH="/opt/newznab/misc/update_scripts"
+export NEWZNAB_SLEEP_TIME="600" # in seconds
 export NEWZNAB_LOG1="/var/log/newznab_run.log"
 export NEWZNAB_LOG2="/var/log/newznab_service.log"
-export NEWZNAB_SLEEP_TIME="600" # in seconds
 LASTOPTIMIZE=`date +%s`
 
 while :
